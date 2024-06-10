@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link to Good Shit</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Set background color */
+        }
+        h1 {
+            color: white; /* Set text color to white */
+            text-align: center;
+            padding-top: 20px;
+        }
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Place behind other content */
+            overflow: hidden;
+        }
+        .video-background video {
+            min-width: 100%;
+            min-height: 100%;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+            position: relative; /* Position class links relative to body */
+            z-index: 1; /* Place above video background */
+        }
+        .class-link {
+            margin: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            animation: sway 3s ease-in-out infinite alternate; /* Apply sway animation */
+        }
+        @keyframes sway {
+            from {
+                transform: rotate(-2deg); /* Rotate left */
+            }
+            to {
+                transform: rotate(2deg); /* Rotate right */
+            }
+        }
+        .class-link img {
+            max-width: 200px; /* Set maximum width for images */
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+        .class-link:hover img {
+            transform: scale(1.05); /* Increase image size on hover */
+        }
+        .class-link a {
+            display: block;
+            padding: 10px;
+            color: #f1f5fa;
+            text-decoration: none;
+            text-align: center; /* Center text */
+        }
+        .class-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>𝕷𝖎𝖓𝖐 𝕿𝖔 𝕲𝖔𝖔𝖉 𝕾𝖍𝖎𝖙</h1>
+    <div class="video-background">
+        <video autoplay loop muted>
+            <source src="images\RPReplay_Final1717973116.mov" type="video/mp4">
+            <!-- Add other video formats if needed -->
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="container">
+        <div class="class-link">
+            <a href="class_page1.html"><img src="images/hib copy.png" alt="Image 1"></a>
+            <a href="class_page1.html">Stephanie</a>
+        </div>
+        <div class="class-link">
+            <a href="class_page2.html"><img src="images/hib2 copy.png" alt="Image 2"></a>
+            <a href="class_page2.html">Go to Class Page 2</a>
+        </div>
+        <div class="class-link">
+            <a href="class-page.html"><img src="images/frangi copy.png" alt="Image 3"></a>
+            <a href="class-page.html">Go to Class Page 3</a>
+        </div>
+        <div class="class-link">
+            <a href="class-page4.html"><img src="images\ppppp (1).png" alt="image 4"></a> 
+            <a href="class-page4.html">Go to Class page 4</a>
+        </div>
+    </div>
+    <div class="container"> <!-- Second container -->
+        <div class="class-link">
+            <a href="class-page5.html"><img src="images/ll.png" alt="image 5"></a> 
+            <a href="class-page5.html">Go to Class page 5</a>
+        </div>
+        <!-- Add more class links as needed -->
+        <div class="class-link">
+            <a href="class-page6.html"><img src="images/pp.png" alt="image 6"></a>
+            <a href="class-page6.html">go to class page 6</a>
+        </div>
+        <div class="class-link">
+            <a href="class-page7.html"><img src="images/hibib.png" alt="image 7"></a>
+            <a href="class-page7.html">go to class page 7</a>
+        </div>
+        <div class="class-link">
+            <a href="class-page8.html"><img src="images/kkkm.png" alt="image 8"></a>
+            <a href="class-page8.html">go to class page 8</a>
+        </div>
+        <div class="class-link">
+            <a href="class-page9.html"><img src="images/Untitled-7.png" alt="image 9"></a>
+            <a href="class-page9.html">go to class page 9</a>
+        </div>
+        <div class="class-link">
+            <a href="class-page10.html"><img src="images/lpolp.png" alt="image 10"></a>
+            <a href="class-page10.html">go to class page 9</a>  
+        </div>
+    </div>
+</body>
+</html>
